@@ -32,7 +32,7 @@ def test_yandex(driver,login,password,letter_from,letter_to,theme):
     yandex_main_page.click_search_email_filter_from_button()
     yandex_main_page.enter_search_email_filter_from_data(letter_from)
 
-    time.sleep(5)
+    time.sleep(6)
     
     n_letters=yandex_main_page.get_amount_of_letters_from()
     print(n_letters)
