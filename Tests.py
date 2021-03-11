@@ -48,5 +48,5 @@ def test_yandex(driver,login,password,letter_from,letter_to,theme):
     
     
 test_yandex(driver,login,password,letter_from,letter_to,theme)
-time.sleep(5)
+time.sleep(6)
 driver.quit()
